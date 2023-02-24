@@ -1,0 +1,90 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    
+
+}
+body{
+    margin: 0px;
+    
+}
+.container{
+    background-color: #111827;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+h1{
+    color: #F9FAFB;
+    font-size: 3em;
+    
+}
+h1 > span {
+    color: #0284C7;
+}
+#text{
+    color: #F9FAFB;
+    margin: 25px
+}
+label{
+    color: #F9FAFB;
+    margin: 5px;
+}
+input{
+    background-color: #1F2937;
+    outline: none;
+    color: #F9FAFB;
+    width: 50px;
+    text-align: center;
+}
+
+hr{
+    width: 70vw;
+    background-color: #F9FAFB;
+}
+#btn{
+    color: #F9FAFB;
+    background-color:#0284C7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+#btn-2{
+    color: #F9FAFB;
+    background-color:#0284C7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 5px;
+}
+#btn:active{
+    background-color: #036697;;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#btn-2:active{
+    background-color: #036697;;
+}
+#btn-2:hover{
+    cursor: pointer;
+}
+
+.password-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.generator{
+    font-family: monospace;
+    color: #F9FAFB;
+    border-radius: 5px;
+    margin: 10px 5px 10px 30px;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: #1F2937;
+}
